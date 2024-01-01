@@ -1,0 +1,117 @@
+.f-container {
+    gap: 2rem;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+    background-color: black;
+}
+
+.r-head {
+    margin-bottom: 2rem;
+}
+
+.f-card {
+    gap: 0.6rem;
+    padding: 1rem;
+    border-radius: 180px 180px 180px 180px;
+    max-width: max-content;
+    margin: auto;
+    transition: all 300ms ease-in;
+    background-color: rgb(255, 255, 255);
+}
+
+.f-card>img {
+    width: 100%;
+    max-width: 15rem;
+}
+
+.f-card> :nth-child(2) {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.f-card> :nth-child(3) {
+    font-size: 1.5rem;
+}
+
+.f-card> :nth-child(4) {
+    font-size: 0.7rem;
+    width: 15rem;
+}
+
+.f-card:hover {
+    scale: 1.055;
+    cursor: pointer;
+
+    box-shadow: 0px 82px 59px -51px rgba(0, 255, 166, 0.486);
+}
+
+.swiper-horizontal {
+    overflow: visible;
+}
+
+.r-buttons {
+    position: absolute;
+    gap: 1rem;
+    top: -4rem;
+    right: 0;
+}
+
+.r-buttons button {
+    font-size: 1.2rem;
+    padding: .2rem .8rem;
+    color: rgb(28, 142, 130);
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.r-buttons>:nth-child(1) {
+    background-color: #EEEEFF;
+}
+
+.r-buttons>:nth-child(2) {
+    box-shadow: 0px 0px 5px 1px rgba(97, 97, 97, 0.25);
+}
+
+.r-emailButton {
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    color: white;
+    background: rgb(28, 142, 130);
+    border: none;
+    border-radius: 4px;
+
+    animation: pulse 2s infinite;
+
+    cursor: pointer;
+    margin-left: 76.2px;
+}
+
+.r-emailButton:hover {
+    background: black;
+    transform: scale(1.1);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+        background-color: rgb(11, 83, 75);
+        color: whitesmoke;
+
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.imagecard {
+    border-radius: 90px 90px 0px 0px;
+}

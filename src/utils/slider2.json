@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Starbucks",
+        "price": "39,043,000",
+        "detail": "Elevating coffee culture worldwide with a diverse range of high-quality coffees, handcrafted beverages.",
+        "image": "./starbucks.png"
+    },
+    {
+        "name": "McDonald's",
+        "price": "66,353,000",
+        "detail": "Serving joy with iconic burgers, fries, and a globally beloved menu, creating memorable experiences for millions around the world.",
+        "image": "./mcdonald.png"
+    },
+    {
+        "name": "Haldirams",
+        "price": "34,853,000",
+        "detail": "Celebrating the richness of Indian sweets and snacks, offering a delightful journey through traditional flavors and culinary craftsmanship.",
+        "image": "./haldiram.png"
+    },
+    {
+        "name": "Barista",
+        "price": "27,043,000",
+        "detail": "Elevating coffee culture worldwide with a diverse range of high-quality coffees, handcrafted beverages.",
+        "image": "./barista.webp"
+    },
+    {
+        "name": "Dominos",
+        "price": "45,853,000",
+        "detail": "Delivering pizza happiness with a commitment to speed, quality, and innovation, one slice at a time.",
+        "image": "./dominos.png"
+    },
+    {
+        "name": "Burger King",
+        "price": "35,353,000",
+        "detail": "Serving joy with iconic burgers, fries, and a globally beloved menu.",
+        "image": "./burgerking.jpg"
+    },
+    {
+        "name": "Pizza Hut",
+        "price": "31,853,000",
+        "detail": "Delivering pizza happiness with a commitment to speed, quality, and innovation, one slice at a time.",
+        "image": "./pizzahut.png"
+    }
+]
